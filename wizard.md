@@ -6,6 +6,7 @@ type: service
 category: system
 version: 0.9.0-rc.3.cpu
 summary: Local speech-to-text with word timings.
+icon: icon.png
 license: WTFPL
 source: https://github.com/oscarhenrycollins/transcriber
 runtime:
