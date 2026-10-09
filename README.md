@@ -2,7 +2,7 @@
 
 Shared local speech-to-text with word timings and an OpenAI-compatible API.
 
-A [Wizard app](https://apps.aiwizards.com): install it from the Wizard Apps screen, or with the Wizard App Manager on any box running stock [Runtipi](https://runtipi.io).
+A [Wizard app](https://www.aiwizards.com/wizard-apps): install it from the Wizard Apps screen, or with the Wizard App Manager on any box running stock [Runtipi](https://runtipi.io).
 
 - `wizard.md`: what the app is and what it gives the agent (spec: wizard.md v0.2).
 - `runtipi/`: stock Runtipi `config.json` and `docker-compose.yml`.

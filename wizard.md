@@ -3,8 +3,9 @@ wizard: 0.2
 id: transcriber
 name: Transcriber
 type: service
+category: system
 version: 0.9.0-rc.3.cpu
-summary: Shared local speech-to-text with word timings and an OpenAI-compatible API.
+summary: Local speech-to-text with word timings.
 license: WTFPL
 source: https://github.com/oscarhenrycollins/transcriber
 runtime:
@@ -26,4 +27,4 @@ health: /health
 
 # Transcriber
 
-Shared local speech-to-text with word timings and an OpenAI-compatible API.
+Local speech-to-text with word timings.
