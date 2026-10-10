@@ -4,6 +4,7 @@ id: transcriber
 name: Transcriber
 type: service
 category: system
+tags: [audio]
 version: 0.9.0-rc.3.cpu
 summary: Local speech-to-text with word timings.
 icon: icon.png
