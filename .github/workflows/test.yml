@@ -1,0 +1,13 @@
+name: Tests
+on: [pull_request, push]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generated MCP front is up to date
+        run: python3 mcp/inline.py --check
+      - name: MCP front box-peer gate
+        run: python3 -m unittest discover -s tests -v
